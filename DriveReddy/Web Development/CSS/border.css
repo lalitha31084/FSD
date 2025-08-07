@@ -1,0 +1,31 @@
+.header
+{
+    border-top: 1px;
+    border-top-color: red;
+    border-top-style: dashed;
+
+
+    border-right: 3px;
+    border-right-color: blue;
+    border-right-style: double;
+
+    border-bottom: 6px;
+    border-bottom-color: bisque;
+    border-bottom-style: groove;
+
+    border-left: 3px;
+    border-left-color: aqua;
+    border-left-style: dashed;
+
+   
+}
+.para
+{
+    height: 35px;
+    width: 300px;
+    border: 2px solid blue;
+    background-color: pink;
+    
+    border-radius: 10px 50px 100px 150px;
+}
+ 

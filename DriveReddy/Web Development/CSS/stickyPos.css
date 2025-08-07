@@ -1,0 +1,36 @@
+.parent-1
+{
+    height:500px ;
+    width:100%;
+    background-color: red;
+}
+.parent-2
+{
+    height:100px ;
+    width:100%;
+    background-color: rgb(0, 30, 255);
+    border: 3px solid black;
+    position: sticky;
+    top: 100px;
+   
+}
+
+.parent-3
+{
+    height:500px ;
+    width:100%;
+    background-color: rgb(55, 255, 0);
+}
+.parent-4
+{
+    height:500px ;
+    width:100%;
+    background-color: rgb(255, 0, 89);
+}
+.parent-5
+{
+    height:1000px ;
+    width:100%;
+    background-color: rgb(255, 106, 0);
+}
+

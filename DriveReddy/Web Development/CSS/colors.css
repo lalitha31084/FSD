@@ -1,0 +1,30 @@
+.para
+{
+    color:greenyellow;
+.para{
+    color:blue;
+}
+.para-1
+{
+    color: rgb(255,255,0);
+}
+.para-2
+{
+    color: rgb(255,0,0,0.5);
+}
+.para-3
+{
+    color: rgb(255,255,0,0.7);
+}
+.para-4
+{
+    color: rgb(0,0,255,1);
+}
+.para-5
+{
+    color: #560083;
+}
+.para-6
+{
+    color:hsl(30000,100% ,40%,0.9);
+}

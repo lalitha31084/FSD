@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Updation in DOM</title>
+        <link rel="stylesheet" href="UPdation.css">
+    </head>
+    <body>
+        <div class="demo"></div>
+       <div class="button">
+         <button  onclick="fun1()">TOP</button>
+        <button onclick="fun2()">Bottom</button>
+        <button onclick="fun3()">Left</button>
+        <button onclick="fun4()">Right</button>
+        
+       </div>
+        <script>
+            function fun1(){
+               document.getElementsByClassName("demo")[0].style="margin-top:-10px"
+            }
+            function fun2(){
+                document.getElementsByClassName("demo")[0].style="margin-top:10px";
+            }
+            function fun3(){
+                document.getElementsByClassName("demo")[0].style="margin-left:-10px"
+            }
+            function fun4(){
+                document.getElementsByClassName("demo")[0].style="margin-left:10px"
+            }
+
+        </script>
+    </body>
+</html>

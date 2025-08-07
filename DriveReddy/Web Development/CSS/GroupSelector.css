@@ -1,0 +1,11 @@
+*
+{
+    padding:0;
+    margin:0;
+
+}
+h1,p,div, .group  {
+    color:red;
+    backgroun-color:skyblue;
+
+}

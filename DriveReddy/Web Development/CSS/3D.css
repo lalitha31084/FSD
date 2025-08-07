@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent
+{
+    transform-style: preserve-3d;
+    perspective: 100px;
+    transform-origin:top right;
+    perspective-origin: bottom;
+    border: 1px solid white;
+    overflow: hidden;
+}
+.child
+{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+    text-align: justify;
+    padding: 10px;
+    transform: rotateY(180deg);
+    animation-name: myanimation;
+    animation-duration: 4s;
+
+}
+@keyframes myanimation
+{
+    0%
+    {
+        transform: rotateY(0deg);
+    }
+    100%
+    {
+        transform: rotateY(360deg);
+    }
+}

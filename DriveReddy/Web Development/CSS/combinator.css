@@ -1,0 +1,23 @@
+/*  " " combinator
+.parent  h1
+{
+    color: red;
+}*/
+
+/*  ">" combinator
+.parent > h1
+{
+    color: red;
+}*/
+
+/*  "+" combinator
+div + p{
+    color: blue;
+}
+
+*/
+/*  "~" combinator
+div ~ p{
+    color: blue;
+}
+    */

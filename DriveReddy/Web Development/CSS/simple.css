@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  perspective: 600px;
+  background: #111;
+}
+
+.parent {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: myAnimation 5s infinite linear;
+}
+
+@keyframes myAnimation {
+  100% {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+}
+
+.face {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background: red;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px #000;
+}
+
+.front  { transform: translateZ(50px); }
+.back   { transform: translateZ(-50px) rotateY(180deg); }
+.right  { transform: rotateY(90deg) translateZ(50px); }
+.left   { transform: rotateY(-90deg) translateZ(50px); }
+.top    { transform: rotateX(90deg) translateZ(50px); }
+.bottom { transform: rotateX(-90deg) translateZ(50px); }
+
+.dot {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: white;
+  border-radius: 50%;
+}
+
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-left {
+  top: 20%;
+  left: 20%;
+}
+
+.top-right {
+  top: 20%;
+  right: 20%;
+}
+
+.bottom-left {
+  bottom: 20%;
+  left: 20%;
+}
+
+.bottom-right {
+  bottom: 20%;
+  right: 20%;
+}
+
+.center-left {
+  top: 50%;
+  left: 20%;
+  transform: translateY(-50%);
+}
+
+.center-right {
+  top: 50%;
+  right: 20%;
+  transform: translateY(-50%);
+}

@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>promises</title>
+        <script>
+// var res=new Promise(function(reslove,reject){
+//     var x=10;
+//     if(x==10){
+//         reslove("eligible");
+//     }
+//     else{
+//         reject("not eligible");
+//     }
+// })
+
+// res.then(function(res){
+//     console.log(res)
+// })
+// .catch(function(err){
+//     console.log(err)
+// })
+
+
+function fun1(val){
+     return new Promise(function(res){
+        setTimeout(function(){
+            res(10);
+    },1000)
+    })
+}
+function fun2(val){
+     return new Promise(function(res){
+        setTimeout(function(){
+            res(val+1);
+    },1000)
+    })
+}
+function fun3(val){
+     return new Promise(function(res){
+        setTimeout(function(){
+            res(val+1);
+    },1000)
+    })
+}
+
+// This is the older method use .then to show the atsk is completed
+
+// fun1().then(function(){
+//     console.log("fun1 completed");
+//     fun2().then(function(){
+//         console.log("fun2 completed");
+//         fun3.then(function(){
+//             console.log("fun3 completed");
+
+//         })
+//     })
+// })
+
+async function execute(){
+    try{
+        const res1= await fun1();
+        const res2=await fun2(res1);
+        const res3=await fun3(res2);
+        console.log(res3);
+    }
+    catch(err){
+        console.log(err);
+    }
+}
+execute();
+
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>

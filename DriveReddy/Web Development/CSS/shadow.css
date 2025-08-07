@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+.first
+{
+    position: relative;
+    top: 180px;
+    width: 300px;
+    height: 300px;
+    /* box-shadow: x y blurness sreading color*/
+    box-shadow: 0px 0px 25px 15px rgb(211, 142, 14);
+   border-radius: 50%;
+   background-color:rgb(242,181,15)
+}
+
+
+.second
+{
+    position: relative;
+    top: 150px;
+    width: 300px;
+    height: 300px;
+    font-size: 160px;
+    color: hwb(60 0% 0%);
+    text-shadow:0px 0px 25px white ;
+}

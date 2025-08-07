@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>CV</title>
+    </head>
+    <script>
+        function fun(event){
+            ppreventdefault();
+            console.log(event.target.value);
+        }
+    </script>
+    <body>
+       <form>
+         <!--Name -->
+        <label> Name: </label>
+        <input type="text" required /><br><br>
+         <!--Email -->
+        <label>Eamil: </label>
+        <input type="text" required ><br><br>
+         <!--Phone Number -->
+         <label>Phone Number:</label>
+         <input type="number" required ><br><br>
+          <!--Datw of birth -->
+        <label>Date Of Birth:</label>
+        <input type="date" required ><br><br>
+         <!--Gender -->
+        <label> Gender:</label><br>
+        <label>Male</label>
+        <input type="radio" requiredname="Gender">
+        <label>Female</label>
+        <input type="radio" required name="Gender" >
+        <label>Others</label>
+        <input type="radio" name="Gender"><br><br>
+        <button type="submit" onchange="fun(event)">Submit</button>
+        <button type="reset" onchange="fun(event)">Reset</button>
+       </form>
+
+    </body>
+</html>

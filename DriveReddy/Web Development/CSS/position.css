@@ -1,0 +1,27 @@
+.parent-1
+{
+    height:300px ;
+    width:100%;
+    background-color: red;
+}
+.parent-2
+{
+    height:300px ;
+    width:100%;
+    background-color: rgb(0, 30, 255);
+}
+.child
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 192, 239);
+    position: relative;
+    top: -60px;
+    left: 50%;
+}
+.parent-3
+{
+    height:300px ;
+    width:100%;
+    background-color: rgb(55, 255, 0);
+}

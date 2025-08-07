@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Wishlist</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+</head>
+<body>
+  <header>
+    <nav class="top-nav">
+      <a href="#"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="#" class="active"><i class="fas fa-heart"></i><span>Wishlist</span></a>
+      <a href="#"><i class="fas fa-user"></i><span>Profile</span></a>
+    </nav>
+  </header>
+
+  <main class="wishlist-section">
+    <h2>My Wishlist</h2>
+
+    <div class="wishlist-message">
+      <i class="fas fa-heart"></i>
+      <span>Books you love and want to read!</span>
+    </div>
+
+    <form id="add-form">
+      <input type="text" id="book-input" placeholder="Enter book title..." required />
+      <button type="submit"><i class="fas fa-plus"></i> Add Book</button>
+    </form>
+
+    <ul class="wishlist-items" id="wishlist">
+      <!-- Books added by user appear here -->
+    </ul>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

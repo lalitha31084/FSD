@@ -1,0 +1,65 @@
+.head
+{
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    font-size: 25px;
+    color: rgb(245, 237, 237);
+}
+.num
+{
+    position: absolute;
+    top: 220px;
+    left: 120px;
+    font-size: 25px;
+    color: antiquewhite;
+}
+.validthru
+{
+    position: absolute;
+    top: 240px;
+    left: 120px;
+    font-size: 15px;
+    color: antiquewhite;
+}
+.date
+{
+    position: absolute;
+    top: 255px;
+    left: 120px;
+    font-size: 15px;
+    color: antiquewhite;
+}
+.name
+{
+    position: absolute;
+    top: 280px;
+    left: 120px;
+    font-size: 15px;
+    color: antiquewhite;
+}
+
+.circleleft
+{
+    
+    width: 45px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 100%;
+    position: absolute;
+    top:250px ;
+    right: 320px;
+    background-color: red;
+}
+.circleright
+{
+    
+    width: 45px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 100%;
+    position: absolute;
+    top:250px ;
+    right: 300px;
+    background-color: orange;
+}

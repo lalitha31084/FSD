@@ -1,0 +1,44 @@
+.head1
+{
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    background-color: rgb(37, 222, 59);
+    background-image: url("./flower.jpeg");
+     background-position: bottom right;
+     background-repeat: repeat-y;
+     
+    
+    /*
+    background-size:cover;
+    background-size: contain;*/
+    /*
+    background-repeat: no-repeat;
+    
+    background-repeat: repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;*/
+   
+     /*background-position: top left;
+   
+    background-position: top center;
+    background-position: top right;
+    background-position: center left;
+    background-position: center center;
+    background-position: center right;
+    background-position: bottom top;
+    background-position: bottom center;
+    background-position: bottom right;*/
+}
+.head2
+{
+    height: 300px;
+    width: 300px;
+    border: 3px solid red;
+    background-color: aquamarine;
+    background-image: url(./flower.jpeg);
+    background-position: top ;
+    background-repeat: repeat;
+    background-size: cover;
+    
+}

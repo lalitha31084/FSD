@@ -1,0 +1,30 @@
+.first
+{
+    width: 250px;
+    height: 300px;
+    background-color: red;
+    border: 3px solid black;
+    position: absolute;
+    z-index: 200;
+}
+.second
+{
+    width: 250px;
+    height: 300px;
+    background-color: rgb(0, 255, 132);
+    border: 3px solid black;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+.third
+{
+    width: 250px;
+    height: 300px;
+    background-color: rgb(0, 4, 255);
+    border: 3px solid black;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    z-index: 100;
+}

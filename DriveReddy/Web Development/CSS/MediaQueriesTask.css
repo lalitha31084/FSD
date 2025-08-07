@@ -1,0 +1,53 @@
+body
+{
+    background-color: antiquewhite;
+
+}
+.header
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:white;
+
+}
+.nav
+{
+    color: black;
+    display: flex;
+    padding: 50px;    
+    gap: 100px;
+}
+.nav a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+button
+{
+    width: 80px;
+    height: 50px;
+    color: white;
+    background-color: rgb(14, 91, 14);
+    border-radius: 10px;
+    margin-left:300px ;
+    margin-top: 40px;
+    border-color: none;   
+}
+.bar
+{
+    display: none;
+    margin: 40px;
+}
+
+@media (max-width:1200px)
+{
+    .nav
+    {
+        display:none;
+    }
+    .bar{
+        display:block;
+    }
+}

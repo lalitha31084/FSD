@@ -1,0 +1,82 @@
+.demo1
+{
+    width: 150px;
+    height: 150px;
+    background: black;
+   /*
+    animation-name: MyAnimation;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in ;*/
+
+    /* animation: name duration timing-function delay iteration-count direction fill-mode;*/
+    animation: MyAnimation  3s linear 1s infinite alternative ;
+}
+.demo2
+{
+    width: 150px;
+    height: 150px;
+    background:rgb(3, 214, 10);
+    animation-name: MyAnimation;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-out ;
+    animation-delay: 1s;
+    
+}
+.demo3
+{
+    width: 150px;
+    height: 150px;
+    background:brown;
+    animation-name: MyAnimation;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out ;
+}
+.demo4
+{
+    width: 150px;
+    height: 150px;
+    background:purple;
+    animation-name: MyAnimation;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease;
+}
+
+@keyframes MyAnimation
+{
+    /*
+    from
+    {
+        left: 0px;
+        background-color: black;
+        border-radius: 0px;
+    }
+    to
+    {
+        left: 400px;
+        background-color: rgba(43, 0, 37, 0.505);
+        border-radius: 75px;
+    }
+    */
+    0%
+    {
+        left: 0px;
+      
+    }
+    50%
+    {   left: 40px;
+      
+    }
+    100%
+    {
+        left: 500px;
+       
+    }
+}

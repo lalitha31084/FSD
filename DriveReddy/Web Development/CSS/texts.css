@@ -1,0 +1,51 @@
+.head
+{
+    color:blue;
+    text-align: right;
+    text-decoration:underline;
+    text-transform:lowercase;
+    letter-spacing: 5;
+    word-spacing: 50px;
+    line-height: 50px;
+    text-indent: 10px;
+
+}
+.para-1
+{
+    text-align: end;
+
+}
+.para-2
+{
+    text-decoration-line: line-through;
+    text-align-last: right;
+    text-decoration-color: rgb(0, 255, 30,1);
+    text-decoration-style: dashed;
+    text-decoration-thickness: 5px;
+    text-transform: uppercase;
+    text-spacing-trim: ;
+
+}
+.para-3
+{
+ direction: rtl;
+ text-decoration-line:underline overline line-through;
+ text-decoration-color: red;
+ text-transform: lowercase
+}
+.para-4
+{
+    text-decoration: line-through underline overline brown dashed 5px;
+    text-transform: capitalize;
+}
+.para-5
+{
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    line-height: 40px;
+    text-indent: 10px;
+}
+.text-shadow
+{
+    text-shadow: 5px 5px;
+}

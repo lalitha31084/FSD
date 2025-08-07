@@ -1,0 +1,114 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(149, 138, 138);
+    height: 100svh;
+    perspective: 600px;
+}
+.parent
+{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    position: relative;
+    transform-style: preserve-3d;
+    animation:myAnimation 5s infinite linear  ;
+}
+@keyframes myAnimation
+{
+        100%
+        {
+             transform:rotateX(360deg) rotateY(360deg);
+        }
+}
+.parent div
+{
+    
+        height: 300px;
+        width: 300px;
+        border: 3px solid black;
+        position: absolute;
+        background-color: black;
+}
+
+.left
+{
+        display: grid;
+        grid-template-columns: repeat(3,0fr);
+        background-color:blue ;
+        transform: rotateY(90deg) translateZ(150px);
+}
+
+
+.right
+{
+        display: grid;
+        grid-template-columns: repeat(3,0fr);
+        background-color:green ;
+        transform: rotateY(90deg) translateZ(-150px);
+}
+  
+.top
+{
+        display: grid;
+        grid-template-columns: repeat(3,0fr);
+        background-color: yellow;
+        transform: rotateX(90deg) translateZ(150px);
+}  
+.bottom
+{
+        display: grid;
+        grid-template-columns: repeat(3,0fr);
+        background-color: white;
+        transform: rotateX(90deg) translateZ(-150px);
+}
+.front
+{
+        display: grid;
+        grid-template-columns: repeat(3,0fr);
+        background-color: red;
+        transform: translateZ(150px);
+}
+.back
+{
+        display: grid;
+        grid-template-columns: repeat(3,0fr);
+        background-color: orange;
+        transform: translateZ(-150px);
+}
+.left div, .right div, .top div, .bottom div, .front div, .back div
+{
+      position: relative;
+      height: 96px;
+      width: 96px;
+      border: 2px solid black ;
+      border-radius: 20px;
+}
+.left div
+{
+     background-color:blue ;
+}
+.right div
+{
+    background-color:green ;
+}
+.front div
+{
+     background-color: red;
+}
+.back div
+{
+       background-color: orange;
+
+}
+.top div
+{
+     background-color: yellow;
+
+}
+.bottom div
+{
+    background-color: white;
+}
